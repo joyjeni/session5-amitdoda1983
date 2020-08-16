@@ -22,7 +22,7 @@ def time_it(fn, *args, repetitions=1, **kwargs):
     if not (len([*args,*kwargs]) ==  fn.__code__.co_argcount):
         raise TypeError("invalid arguments: arguments passed are not valid for function called")
 
-    key_wargs=[*kwargs]
+    
 
     for i in range(repetitions):
         fn(*args, **kwargs)
