@@ -52,3 +52,7 @@ be used for conversion. Following are the accepted values for the keyword argume
 dist: 'km', 'm', 'ft', 'yrd'
 time: 'ms', 's', 'min', 'hr', 'day'
 The function returns the speed converted in the distance and time units as specified by the dist and time arguments.
+
+# Results
+
+![Image](https://github.com/The-School-of-AI/session5-amitdoda1983/blob/master/session5_results.PNG)
